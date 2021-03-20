@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    background-image: url('../img/pexels-polina-kovaleva-5717444.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+  }
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .text {
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 6em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+  .main-section {
+    background: transparent;
+    margin: 30px auto;
+    border-radius: 10px;
+  }
+  
+  .add-section {
+   background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .add-section input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    font-size: 23px;
+    border-radius: 5px;
+    padding: 30px;
+  }
+  
+  .add-section button {
+    display: block;
+    background-color: tomato;
+    padding: 2%;
+    width: 100%;
+    margin: 0px auto;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-section button:hover {
+    opacity: 0.7;
+  }
+  
+  .add-section button span {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+  }
+  
+  #errorMes {
+    display: block;
+    background: #f2dede;
+    width: 95%;
+    margin: 0px auto;
+    color: rgb(139, 19, 19);
+    padding: 10px;
+    height: 35px;
+  }
+  
+  .show-todo-section {
+    width: 100%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .todo-item {
+    width: 95%;
+    margin: 10px auto;
+    padding: 20px 10px;
+    background-color: rgba(87, 87, 87, 0.603);
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 20px 0 rgb(95, 95, 95);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .todo-item h2 {
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 25px;
+    color:white;
+  }
+  
+  .todo-item small {
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    color:white;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  
+  .remove-to-do {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 23px;
+    color: rgb(247, 245, 245);
+    text-decoration: none;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 50%;
+    transition: background 1s;
+    cursor: pointer;
+  }
+  
+  .remove-to-do:hover {
+    background: rgb(39, 33, 32);
+    color: #fff;
+  }
+  
+  .checked {
+    width: 600px;
+    color: #999 !important;
+    text-decoration: line-through;
+    
+  }
+  
+  .todo-item input {
+    margin: 0px 5px;
+  }
+  
+  .empty {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #cccc;
+  }
+  
